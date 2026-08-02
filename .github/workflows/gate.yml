@@ -1,0 +1,8 @@
+name: gate
+on: [push]
+jobs:
+  g:
+    runs-on: ubuntu-latest
+    environment: gated
+    steps:
+      - run: echo gated
